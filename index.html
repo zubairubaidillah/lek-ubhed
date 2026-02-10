@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Z-CYNEMA | Videography & Photography</title>
+  <meta name="description" content="Z-CYNEMA adalah vendor videografi dan fotografi profesional dengan sentuhan cinematic.">
+  <meta name="keywords" content="videografi, fotografi, cinematic video, vendor video">
+  <meta name="author" content="Z-CYNEMA">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">Z-CYNEMA</div>
+
+  <button class="menu-toggle" id="menuToggle">☰</button>
+
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#team">Team</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <button id="darkToggle" class="dark-btn">🌙</button>
+  </nav>
+</header>
+
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+</script>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content fade-in">
+    <h1>Cinematic Visual, Professional Touch</h1>
+    <p>Vendor Videografi & Fotografi Profesional</p>
+    <a href="#contact" class="btn">Hubungi Kami</a>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section about fade-in">
+  <h2>Tentang Kami</h2>
+  <p class="center-text">
+    <strong>Z-CYNEMA</strong> adalah vendor videografi dan fotografi yang berfokus pada
+    penyajian visual sinematik dengan standar profesional. Kami membantu individu,
+    brand, dan perusahaan menyampaikan cerita melalui visual yang kuat, estetik,
+    dan bermakna. Setiap proyek dikerjakan dengan perencanaan matang, tim solid,
+    dan proses editing presisi demi hasil yang konsisten dan berkualitas.
+  </p>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services"class="services">
+  <h2>Layanan Kami</h2>
+  <p class="subtitle">Beberapa layanan yang kami sediakan untuk Anda</p>
+
+  <div class="service-list">
+    <div class="service-card">
+      <div class="icon">📸</div>
+      <h3>Professional Photography</h3>
+      <p>Fotografi berkualitas tinggi dengan komposisi, lighting, 
+        dan color tone profesional untuk kebutuhan komersial maupun personal</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">📹</div>
+      <h3>Event Documentation</h3>
+      <p>Dokumentasi event secara rapi, detail, dan berkelas — mulai dari seminar,
+         konser, gathering, hingga acara resmi perusahaan.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🎬</div>
+      <h3>Cynematic Videography</h3>
+      <p>Produksi video dengan sentuhan sinematik, storytelling kuat, 
+        dan visual dramatis. Cocok untuk brand, wedding, personal project, dan campaign profesional.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon">🏢</div>
+      <h3>Company Video</h3>
+      <p>Video profil perusahaan yang menampilkan identitas,
+         visi, dan kredibilitas brand secara profesional dan meyakinkan</p>
+    </div>
+    <div class="service-card">
+      <div class="icon">📱</div>
+      <h3>Social Media Content</h3>
+      <p>Konten visual yang dirancang khusus untuk Instagram, TikTok,
+         dan platform digital lainnya agar brand tampil konsisten dan menarik.</p>
+    </div>
+    <div class="service-card">
+      <div class="icon">📡</div>
+      <h3>Live Streaming Production</h3>
+      <p>Layanan live streaming profesional dengan setup kamera, 
+        audio, dan visual yang stabil untuk event online & hybrid.</p>
+        
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= TEAM ================= -->
+<section id="team" class="team">
+  <h2>Kenali Tim Kami</h2>
+  <p class="subtitle">Tim profesional yang siap membantu dan berkembang bersama Anda</p>
+
+  <div class="team-list">
+    <div class="team-card">
+      <img src="images/WhatsApp Image 2026-02-10 at 20.42.34.jpeg" alt="lekub">
+      <h3>lek ub</h3>
+      <span>head vendor</span>
+    </div>
+
+    <div class="team-card">
+      <img src="images/IMG-20251116-WA0085.jpg.jpeg" alt="pakno">
+      <h3>pak no</h3>
+      <span>Editor</span>
+    </div>
+
+    <div class="team-card">
+      <img src="images/WhatsApp Image 2026-02-10 at 20.47.30 (1).jpeg" alt="omburhan">
+      <h3>om burhan</h3>
+      <span>Fotografer</span>
+    </div>
+
+    <div class="team-card">
+      <img src="images/DSC07814.JPG" alt="omfarid">
+      <h3>om farid</h3>
+      <span>Videografer</span>
+    </div>
+  </div>
+</section>
+
+ <section class="join"> 
+  <h2>Ingin Bergabung dengan Tim Kami?</h2>
+  <p>
+    Kami membuka kesempatan untuk kamu yang ingin belajar, berkembang,
+    dan tumbuh bersama dalam lingkungan yang suportif dan profesional.
+  </p>
+  <a href=https://docs.google.com/forms/d/e/1FAIpQLSeN_XD4HZVEFf2isRAXoZoU3gHtzxwYLWFfb_9Zrmjw4u19og/viewform?usp=publish-editor class="btn-join">Gabung Sekarang</a>
+</section>
+
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section id="portfolio" class="section portfolio fade-in">
+  <h2>Portfolio</h2>
+  <p class="center-text">Beberapa karya terbaik kami</p>
+
+  <div class="portfolio-grid">
+    <div class="portfolio-item"><img src="images/hh.jpg" alt=""></div>
+    <div class="portfolio-item"><img src="images/ii.webp" alt=""></div>
+    <div class="portfolio-item"><img src="images/oo.jpg" alt=""></div>
+    <div class="portfolio-item"><img src="images/ss.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section contact fade-in">
+  <h2>Siap Bekerja Sama Dengan Kami?</h2>
+  <p>Hubungi kami untuk project dan kolaborasi</p>
+
+  <a href="https://wa.me/628813149539?text=Halo%20Z-CYNEMA%2C%20saya%20ingin%20konsultasi." 
+     target="_blank" class="wa-btn">WhatsApp</a>
+
+  <a href="https://instagram.com/boskhin" target="_blank" class="ig-btn">Instagram</a>
+
+  <p>Email: zubairubaidillah2@gmail.com</p>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="section fade-in">
+  <h2>FAQ</h2>
+  <div class="cards">
+    <div class="card">
+      <strong>Apakah menerima project luar kota?</strong>
+      <p>Ya, kami siap sesuai kesepakatan.</p>
+    </div>
+    <div class="card">
+      <strong>Apakah bisa request konsep?</strong>
+      <p>Tentu, konsep bisa disesuaikan.</p>
+    </div>
+    <div class="card">
+      <strong>Berapa lama pengerjaan?</strong>
+      <p>Tergantung skala project.</p>
+    </div>
+    <div class="card">
+      <strong>Bagaimana Dengan Biaya?</strong>
+      <p>Kami Sangat Flexibel Dan Terjangkau.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 Z-CYNEMA — Cinematic & Reliable Visual</p>
+  <p>by: masubaid</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
